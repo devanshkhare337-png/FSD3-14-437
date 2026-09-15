@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "brand": "vivo",
+    "model": "X300 Ultra",
+    "processor": "Snapdragon 8 Elite Gen 5",
+    "ram": "16 GB",
+    "storage": "512 GB",
+    "display": "6.82 inches AMOLED",
+    "rear_camera": "200 MP + 200 MP + 50 MP",
+    "front_camera": "50 MP",
+    "battery": "6600 mAh"
+  },
+  {
+    "id": 2,
+    "brand": "Samsung",
+    "model": "Galaxy S26 Ultra",
+    "processor": "Qualcomm Snapdragon 8 Elite Gen 5",
+    "ram": "12 GB",
+    "storage": "1 TB",
+    "display": "6.9 inches",
+    "rear_camera": "200 MP + 50 MP + 50 MP + 10 MP",
+    "front_camera": "12 MP",
+    "battery": "5000 mAh"
+  },
+  {
+    "id": 3,
+    "brand": "Google",
+    "model": "Pixel 11 Pro XL",
+    "processor": "Google Tensor G6",
+    "ram": "12 GB",
+    "storage": "256 GB",
+    "display": "6.8 inches LTPO OLED",
+    "rear_camera": "50 MP + 48 MP + 48 MP",
+    "front_camera": "42 MP",
+    "battery": "5115 mAh"
+  },
+  {
+    "id": 4,
+    "brand": "OnePlus",
+    "model": "15",
+    "processor": "Snapdragon 8 Elite Gen 5",
+    "ram": "12 GB",
+    "storage": "256 GB",
+    "display": "6.78 inches LTPO AMOLED",
+    "rear_camera": "50 MP + 50 MP + 50 MP",
+    "front_camera": "32 MP",
+    "battery": "7300 mAh"
+  },
+  {
+    "id": 5,
+    "brand": "OPPO",
+    "model": "Find X9 Ultra",
+    "processor": "Snapdragon 8 Elite Gen 5",
+    "ram": "12 GB",
+    "storage": "512 GB",
+    "display": "6.82 inches LTPO AMOLED",
+    "rear_camera": "200 MP + 50 MP + 200 MP + 50 MP",
+    "front_camera": "50 MP",
+    "battery": "7050 mAh"
+  },
+  {
+    "id": 6,
+    "brand": "Motorola",
+    "model": "Razr Fold",
+    "processor": "Snapdragon 8 Gen 5",
+    "ram": "12 GB",
+    "storage": "256 GB",
+    "display": "8.1 inches LTPO AMOLED",
+    "rear_camera": "50 MP + 50 MP + 50 MP",
+    "front_camera": "32 MP + 20 MP",
+    "battery": "6000 mAh"
+  },
+  {
+    "id": 7,
+    "brand": "realme",
+    "model": "GT 8 Pro",
+    "processor": "Snapdragon 8 Elite Gen 5",
+    "ram": "12 GB",
+    "storage": "256 GB",
+    "display": "6.79 inches AMOLED",
+    "rear_camera": "50 MP + 50 MP + 200 MP",
+    "front_camera": "32 MP",
+    "battery": "7000 mAh"
+  },
+  {
+    "id": 8,
+    "brand": "Samsung",
+    "model": "Galaxy S25 Ultra",
+    "processor": "Snapdragon 8 Elite",
+    "ram": "12 GB",
+    "storage": "512 GB",
+    "display": "6.9 inches Dynamic AMOLED 2X",
+    "rear_camera": "200 MP + 50 MP + 50 MP + 10 MP",
+    "front_camera": "12 MP",
+    "battery": "5000 mAh"
+  },
+  {
+    "id": 9,
+    "brand": "Motorola",
+    "model": "Edge 50 Ultra",
+    "processor": "Qualcomm Snapdragon 8s Gen 3",
+    "ram": "12 GB",
+    "storage": "512 GB",
+    "display": "6.7 inches pOLED",
+    "rear_camera": "50 MP + 50 MP + 64 MP",
+    "front_camera": "50 MP",
+    "battery": "4500 mAh"
+  },
+  {
+    "id": 10,
+    "brand": "Nothing",
+    "model": "Phone (3a) Pro",
+    "processor": "Qualcomm Snapdragon 7s Gen 3",
+    "ram": "12 GB",
+    "storage": "256 GB",
+    "display": "6.77 inches AMOLED",
+    "rear_camera": "50 MP + 50 MP + 8 MP",
+    "front_camera": "50 MP",
+    "battery": "5000 mAh"
+  }
+]

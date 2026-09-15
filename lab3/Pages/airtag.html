@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirTag - Lose your knack for losing things.</title>
+    <style>
+        /* Base Styles */
+        :root {
+            --primary-color: #1d1d1f;
+            --secondary-color: #86868b;
+            --accent-color: #0071e3;
+            --bg-color: #f5f5f7;
+            --white: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--primary-color);
+            line-height: 1.6;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 100;
+            padding: 15px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #e1e1e1;
+        }
+
+        .logo {
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        .buy-nav-btn {
+            background-color: var(--accent-color);
+            color: var(--white);
+            text-decoration: none;
+            padding: 6px 14px;
+            border-radius: 12px;
+            font-size: 0.85rem;
+            font-weight: bold;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 150px 20px 80px;
+            background-color: var(--white);
+        }
+
+        .hero h1 {
+            font-size: 4.5rem;
+            letter-spacing: -0.05em;
+            margin-bottom: 10px;
+        }
+
+        .hero h2 {
+            font-size: 1.8rem;
+            color: var(--secondary-color);
+            font-weight: 400;
+            margin-bottom: 40px;
+        }
+
+        .hero-img-container {
+            max-width: 300px;
+            margin: 0 auto 40px;
+        }
+
+        .hero-img-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%; /* Gives the placeholder a round AirTag shape */
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .price {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            color: var(--secondary-color);
+        }
+
+        .btn-large {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: var(--white);
+            text-decoration: none;
+            padding: 14px 30px;
+            border-radius: 25px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            transition: background-color 0.3s;
+        }
+
+        .btn-large:hover {
+            background-color: #005bb5;
+        }
+
+        /* Features Section */
+        .features {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 80px 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .feature-card {
+            background-color: var(--white);
+            padding: 40px 30px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .feature-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        .feature-card p {
+            color: var(--secondary-color);
+            font-size: 1rem;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: var(--secondary-color);
+            font-size: 0.9rem;
+            border-top: 1px solid #d2d2d7;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 3rem; }
+            .hero h2 { font-size: 1.3rem; }
+            nav { padding: 15px 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">AirTag</div>
+        <a href="#buy" class="buy-nav-btn">Buy</a>
+    </nav>
+
+    <header class="hero">
+        <h1>AirTag</h1>
+        <h2>Lose your knack for losing things.</h2>
+        
+        <div class="hero-img-container">
+            <img src="https://via.placeholder.com/300x300.png?text=AirTag+Image" alt="AirTag Product Image">
+        </div>
+
+        <p class="price">From $29 or $99 for a 4-pack.</p>
+        <a href="#buy" class="btn-large">Buy Now</a>
+    </header>
+
+    <section class="features">
+        <div class="feature-card">
+            <div class="feature-icon">📍</div>
+            <h3>Precision Finding</h3>
+            <p>If your AirTag is nearby, your iPhone can lead you straight to it. You'll see the distance and direction to head in.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon">🔊</div>
+            <h3>Ping it. Find it.</h3>
+            <p>Misplaced your keys? Just follow the sound. The built-in speaker makes finding your things a breeze.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon">🔋</div>
+            <h3>Long Battery Life</h3>
+            <p>Designed to keep going for more than a year on a standard battery you can easily replace.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon">💧</div>
+            <h3>Water Resistant</h3>
+            <p>Accidentally dropped your keys in a puddle? No problem. AirTag is water and dust resistant.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Your Company Name. All rights reserved.</p>
+        <p>This is a conceptual design page.</p>
+    </footer>
+
+</body>
+</html>

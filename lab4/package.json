@@ -1,17 +1,17 @@
 {
   "name": "lab4",
   "version": "1.0.0",
-  "description": "1. create project folder\r 2. right click on project folder and select reveal in terminal",
-  "main": "index.js",
+  "description": "1. Create Project Folder 2. right click on project folder and select open integrated terminal![alt text](./image.png) 3. type in terminal 'npm init -y'",
+  "main": "app.js",
+  "type": "module",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodeman app.js"
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
   "devDependencies": {
-    "nodeman": "^1.1.2"
+    "nodemon": "^3.1.14"
   }
 }
